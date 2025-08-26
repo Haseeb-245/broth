@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'CooperBT';
+ src: url("//thebeautyandthebroth.com/cdn/fonts/cooper_bt/cooperbt_n7.ff4eed0547f8431c87754d27e8ff208aa2d95d5e.woff2?h1=dGhlYmVhdXR5YW5kdGhlYnJvdGguY29t&h2=YmVhdXR5LXRoZS1icm90aC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=74e482f6999b13989fb2f6eda55dd5510b0fb70cdfcf5fd4b32bd76199cd35f2") format("woff2"),
+       url("//thebeautyandthebroth.com/cdn/fonts/cooper_bt/cooperbt_n7.f0e2b8c1ffa237db12629daab57a2012863d950f.woff?h1=dGhlYmVhdXR5YW5kdGhlYnJvdGguY29t&h2=YmVhdXR5LXRoZS1icm90aC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=436b310866d2dd5a206c180d38e3c049173bf1d828ae4001fb03556656310187") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CooperBT';
+   src: url("//thebeautyandthebroth.com/cdn/fonts/cooper_bt/cooperbt_n7.ff4eed0547f8431c87754d27e8ff208aa2d95d5e.woff2?h1=dGhlYmVhdXR5YW5kdGhlYnJvdGguY29t&h2=YmVhdXR5LXRoZS1icm90aC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=74e482f6999b13989fb2f6eda55dd5510b0fb70cdfcf5fd4b32bd76199cd35f2") format("woff2"),
+       url("//thebeautyandthebroth.com/cdn/fonts/cooper_bt/cooperbt_n7.f0e2b8c1ffa237db12629daab57a2012863d950f.woff?h1=dGhlYmVhdXR5YW5kdGhlYnJvdGguY29t&h2=YmVhdXR5LXRoZS1icm90aC5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=436b310866d2dd5a206c180d38e3c049173bf1d828ae4001fb03556656310187") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+/* In your index.css or App.css */
+body {
+  background-color: #f7f3f0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
