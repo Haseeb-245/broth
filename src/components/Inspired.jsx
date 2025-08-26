@@ -8,37 +8,37 @@ export default function Inspired() {
       id: 1,
       title: "4 Ways to Incorporate Bone Broth Into Your Diet",
       desc: "With Beauty & the Broth bone broth, incorporating bone broth into your diet has never been easier or more delicious....",
-      img: "/images/card1.png",
+      img: "/broth/images/card1.png",
     },
     {
       id: 2,
       title: "Ginger Snap Cookies Recipe",
       desc: "You will love these perfectly crisp and chewy gingersnap cookies because they taste just like heaven! These easy-to-make and delicious...",
-      img: "/images/card2.png",
+      img: "/broth/images/card2.png",
     },
     {
       id: 3,
       title: "Cinnamon and Coconut Fat Bombs",
       desc: "Whether you are taking them to a party or snacking late at night, Cinnamon and Coconut Fat Bombs are a...",
-      img: "/images/card3.png",
+      img: "/broth/images/card3.png",
     },
     {
       id: 4,
       title: "Herb Roasted Turkey Legs",
       desc: "There's no doubt that turkey legs are one of my new favorite foods. All the turkey goodness is yours without...",
-      img: "/images/card4.png",
+      img: "/broth/images/card4.png",
     },
     {
       id: 5,
       title: "Apple Pie Cup",
       desc: "Sometimes the best recipes are the easiest! Easy apple pie cups are perfect in every way! Whether you want to...",
-      img: "/images/card5.png",
+      img: "/broth/images/card5.png",
     },
     {
       id: 6,
       title: "Butternut Squash Soup",
       desc: "It's time to get cozy with a bowl of warm, creamy butternut squash soup. Butternut squash and cool...",
-      img: "/images/card6.png",
+      img: "/broth/images/card6.png",
     },
   ];
 

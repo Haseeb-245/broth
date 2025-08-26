@@ -34,7 +34,7 @@ export default function Navbar() {
           </button>
 
           {/* Logo */}
-          <img src="/images/logo.jpg" alt="Logo" className="h-[30px]" />
+          <img src="/broth/images/logo.jpg" alt="Logo" className="h-[30px]" />
         </div>
 
         {/* Menu (Desktop only) */}

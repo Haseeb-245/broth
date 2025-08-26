@@ -11,14 +11,14 @@ const ProductCarousel = () => {
       title: "Organic Beef Bone Broth Concentrate",
       details: "Ranch raised & 100% grass fed beef",
       price: "Rs.20.440.66",
-      image: '/images/product1.jpg'
+      image: '/broth/images/product1.jpg'
     },
     {
       id: 2,
       title: "Organic Chicken Bone Broth Concentrate",
       details: "Free range & vegetarian fed chicken",
       price: "Rs.20.440.66",
-      image: '/images/product2.jpg'
+      image: '/broth/images/product2.jpg'
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const ProductCarousel = () => {
       price: "Rs.18.320.50",
       weight: "NET WT. 3 FL OZ (88.7ml)",
       category: "Beauty & the Broth",
-      image: '/images/product3.jpg'
+      image: '/broth/images/product3.jpg'
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const ProductCarousel = () => {
       price: "Rs.15.220.40",
       weight: "NET WT. 3 FL OZ (88.7ml)",
       category: "Beauty & the Broth",
-      image: '/images/product4.jpg'
+      image: '/broth/images/product4.jpg'
     }
   ];
 

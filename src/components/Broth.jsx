@@ -1,10 +1,10 @@
 export default function Broth() {
   const logo = [
-    { id: 1, image: "/images/glamour.jpg" },
-    { id: 2, image: "/images/Goop.jpg" },
-    { id: 3, image: "/images/travel.jpg" },
-    { id: 4, image: "/images/natural.jpg" },
-    { id: 5, image: "/images/new.jpg" },
+    { id: 1, image: "/broth/images/glamour.jpg" },
+    { id: 2, image: "/broth/images/Goop.jpg" },
+    { id: 3, image: "/broth/images/travel.jpg" },
+    { id: 4, image: "/broth/images/natural.jpg" },
+    { id: 5, image: "/broth/images/new.jpg" },
   ];
 
   return (

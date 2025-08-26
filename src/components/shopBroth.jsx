@@ -19,7 +19,7 @@ export default function ShopBroth() {
         <div className="flex justify-center">
           <img
             className="w-full max-w-sm md:max-w-md object-contain"
-            src="/images/starter.png"
+            src="/broth/images/starter.png"
             alt="starter pack"
           />
         </div>

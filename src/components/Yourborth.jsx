@@ -9,7 +9,7 @@ export default function Yourbroth() {
       label: "I want a light, versatile flavor",
       title: "Organic Chicken Bone Broth",
       desc: "If you’re looking for a bone broth that packs a punch of nutrition and flavor, look no further. Our broth concentrate is made from slow-simmering and repeatedly steaming high-quality, organic ingredients.",
-      img: "/images/yellow.png",
+      img: "/broth/images/yellow.png",
       line:"Revitalize with our chicken broth, crafted with healing turmeric and ginger for ultimate relaxation and detox!"
     },
     {
@@ -17,7 +17,7 @@ export default function Yourbroth() {
       label: "I like rich, full-bodied flavor",
       title: "Organic Beef Bone Broth",
       desc: "If you’re looking for a bone broth that packs a punch of nutrition and flavor, look no further. Our beef broth concentrate is made from slow-simmering and repeatedly steaming high-quality, organic ingredients.",
-      img: "/images/red.png",
+      img: "/broth/images/red.png",
       line:"Experience the rich depth of our beef broth with a hint of tomato for your perfect post-workout boost!"
     },
     {
@@ -25,7 +25,7 @@ export default function Yourbroth() {
       label: "I want a vegan collagen boost",
       title: "Vegan Mushroom Broth",
       desc: "Looking for a plant-based alternative? Our vegan mushroom broth is rich in umami and formulated to help support natural collagen production, while being 100% vegan.",
-      img: "/images/green.png",
+      img: "/broth/images/green.png",
       line:"Boost your collagen naturally with our vegan mushroom broth, packed with umami flavor and skin-loving benefits!"
     },
   ];

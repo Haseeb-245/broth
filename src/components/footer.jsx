@@ -186,7 +186,7 @@ export default function Footer() {
             <p>© 2025 Beauty & the Broth</p>
         </div>
         <div className="h-[20rem] w-full mt-[10rem]">
-<img className="h-[8rem]   mx-auto " src="/images/beauty.png" alt="footer image"/>
+<img className="h-[8rem]   mx-auto " src="/broth/images/beauty.png" alt="footer image"/>
 
         </div>
     </footer>

@@ -1,24 +1,24 @@
 const pic = [
   {
-    image: '/images/b1.jpg', // ✅ changed "Image" to "image"
+    image: '/broth/images/b1.jpg', // ✅ changed "Image" to "image"
     id: 1,
     title: "Whole-Body Wellbeing",
     description: "A natural powerhouse for gut health, inflammation reduction, and collagen-rich anti-aging benefits."
   },
   {
-    image: '/images/b2.jpg',
+    image: '/broth/images/b2.jpg',
     id: 2,
     title: "Only The Best Ingredients",
     description: "Crafted with premium, USDA organic ingredients for superior quality and flavour."
   },
   {
-    image: '/images/b3.jpg',
+    image: '/broth/images/b3.jpg',
     id: 3,
     title: "5x The Nutrients",
     description: "5x the nutrients and benefits than any reconstituted competitor."
   },
   {
-    image: '/images/b4.jpg',
+    image: '/broth/images/b4.jpg',
     id: 4,
     title: "More Energy & Clarity",
     description: "Increased energy, clarity and mood."
@@ -35,11 +35,11 @@ export default function Benefits() {
         
         <div className="md:h-[35rem] h-[40rem] w-[23rem] md:w-auto md:mt-20  md:ml-20 rounded-2xl overflow-hidden ">
           <img
-            src="/images/benefit.jpg"
+            src="/broth/images/benefit.jpg"
             className="h-full object-cover rounded-2xl"
             alt="Benefit"
           />
-          <img className="h-16 w-16 md:h-12 md:w-12 mt-[]" src="/images/your.png" alt="checkmark"> 
+          <img className="h-16 w-16 md:h-12 md:w-12 mt-[] z-10 " src="/broth/images/your.png" alt="checkmark"> 
           </img>
              
           

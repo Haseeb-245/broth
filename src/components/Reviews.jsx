@@ -5,7 +5,7 @@ export default function Reviews() {
         "I personally drink bone broth daily AND it is a big part of all protocols I put my fertility clients on. With that, I am extremely particular about ingredients and cooking processes when it comes to bone broth. When I found Beauty & The Broth and learned about their quality ingredients and proper cooking methods PLUS their convenient, easy to throw in your bag and take anywhere packaging I jumped right in. Their products are amazing thoughtful and nutrient dense and should be a part of your daily health routine!",
       name: "Aimee Raupp",
       occupation: "Women’s Health & Fertility Detective",
-      image: "/images/r1.png",
+      image: "/broth/images/r1.png",
     },
     {
       review:
@@ -13,7 +13,7 @@ export default function Reviews() {
       name: "Dr. Will Cole",
       occupation:
         "Leading functional medicine expert, NYT bestselling author, host of The Art of Being Well podcast",
-      image: "/images/r2.png",
+      image: "/broth/images/r2.png",
     },
     {
       review:
@@ -21,7 +21,7 @@ export default function Reviews() {
       name: "Dr Nigma Talib",
       occupation:
         "Celebrity Naturopathic doctor, author, aesthetician, and leading authority on holistic health",
-      image: "/images/r3.png",
+      image: "/broth/images/r3.png",
     },
     {
       review:
@@ -29,7 +29,7 @@ export default function Reviews() {
       name: "Teri Cochrane",
       occupation:
         "Founder of Teri Cochrane - Beyond Nutrition, an international thought leader in longevity and a pioneer in personalized wellness",
-      image: "./images/r4.png",
+      image: "/broth/images/r4.png",
     },
   ];
 
