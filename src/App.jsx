@@ -9,7 +9,7 @@ import Yourbroth from './components/Yourborth';
 import ShopBroth from './components/shopBroth'
 import Reviews from './components/reviews';
 import Table from './components/table';
-import Card from './components/card';
+
 import Inspired from './components/inspired';
 import Footer from './components/footer';
 
