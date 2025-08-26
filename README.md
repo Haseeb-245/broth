@@ -1,12 +1,29 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🥣 Bone Broth Website
 
-Currently, two official plugins are available:
+A modern, responsive, and premium-looking e-commerce website built with React and TailwindCSS, showcasing organic bone broth products with interactive carousels, product sections, and a luxury-inspired UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## Expanding the ESLint configuration
+🎨 Premium UI Design – Luxury-inspired black, gold, and red color scheme.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully Responsive – Optimized for desktop, tablet, and mobile.
+
+🖼️ Product Carousels – Scrollable sections with navigation arrows.
+
+🛒 Shop Starter Pack Section – Call-to-action area highlighting bundle offers.
+
+🌟 Interactive Components – Hover effects, transitions, and smooth animations.
+
+⚡ Fast & Lightweight – Powered by React + Tailwind for minimal overhead.
+
+🛠️ Tech Stack
+
+Frontend: React, Vite (or CRA, depending on setup)
+
+Styling: TailwindCSS, custom CSS tweaks
+
+Icons: Lucide React / SVG Icons
+
+Carousel: react-slick (slider functionality)
