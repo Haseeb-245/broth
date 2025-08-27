@@ -39,7 +39,7 @@ export default function Benefits() {
             className="h-full object-cover rounded-2xl"
             alt="Benefit"
           />
-          <img className="h-16 w-16 md:h-12 md:w-12 mt-[] z-10 " src="/broth/images/your.png" alt="checkmark"> 
+          <img className="h-16 w-16 md:h-12 md:w-12 mt-[] z-10 " src="/broth/images/your.png" alt="checkmark" loading="lazy"> 
           </img>
              
           
@@ -57,6 +57,7 @@ export default function Benefits() {
                   src={item.image}
                   alt={item.title}
                   className="h-full w-full object-cover rounded-full border-2 "
+                  loading="lazy"
                 />
               </div>
 

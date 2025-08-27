@@ -83,7 +83,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right column placeholder */}
         <div />
 
         {/* SVG with animated text */}

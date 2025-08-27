@@ -18,6 +18,7 @@ export default function Broth() {
               className="h-[3rem] w-auto mt-[2rem] object-contain"
               src={item.image}
               alt={`logo-${index}`}
+              loading="lazy"
             />
           </div>
         ))}

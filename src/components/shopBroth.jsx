@@ -21,6 +21,7 @@ export default function ShopBroth() {
             className="w-full max-w-sm md:max-w-md object-contain"
             src="/broth/images/starter.png"
             alt="starter pack"
+            loading="lazy"
           />
         </div>
       </div>

@@ -90,6 +90,7 @@ export default function Inspired() {
                 src={card.img}
                 alt={card.title}
                 className="w-full h-56 md:h-72 object-cover"
+                loading="lazy"
               />
               <div className="p-4">
                 <h3 className="text-xl md:text-2xl text-[#c01b2e] font-semibold text-center">

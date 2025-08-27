@@ -85,6 +85,7 @@ export default function Reviews() {
                 className="h-20 w-20 mt-5 rounded-full object-cover"
                 src={item.image}
                 alt={item.name}
+                loading="lazy"
               />
             </div>
           ))}

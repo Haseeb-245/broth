@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
 
       {/* Navbar */}
-      <nav className="h-20 flex items-center bg-[#f7f3f0] justify-between px-6 md:px-10 sticky top-0 z-50">
+      <nav className="h-20 flex items-center  bg-[#f7f3f0] justify-between px-6 md:px-10 sticky top-0 z-50">
         
         {/* Left side: Mobile Hamburger + Logo */}
         <div className="flex items-center gap-4">
@@ -48,7 +48,7 @@ export default function Navbar() {
         </ul>
 
         {/* Right Side: Search + Login + Cart */}
-        <div className="flex items-center md:gap-6  ml-20">
+        <div className="flex items-center md:gap-6   ml-20">
           {/* Search Icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +74,7 @@ export default function Navbar() {
             height="23"
             viewBox="0 0 18 23"
             xmlns="http://www.w3.org/2000/svg"
+            className="ml-2"
           >
             <path
               fillRule="evenodd"
@@ -87,7 +88,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#f7f3f0] px-6 py-4 space-y-4 font-cooper text-[#B36B00]">
+        <div className="md:hidden flex flex-col bg-[#f7f3f0] px-6 py-4 space-y-4 font-cooper text-[#B36B00]">
           <a href="#">Shop</a>
           <a href="#">Benefits</a>
           <a href="#">About Us</a>

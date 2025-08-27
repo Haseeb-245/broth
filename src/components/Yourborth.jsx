@@ -84,6 +84,7 @@ export default function Yourbroth() {
             src={selectedOption.img}
             alt="broth"
             className="rounded-xl w-[250px] md:w-[300px]"
+            loading="lazy"
           />
        
           {/* Text content */}

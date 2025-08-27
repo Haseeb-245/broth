@@ -82,7 +82,7 @@ const ProductCarousel = () => {
         </div>
 
         {/* Right column with carousel */}
-        <div className="overflow-hidden relative md:-ml-[20rem]">
+        <div className="overflow-hidden relative md:-ml-[5rem] lg:-ml-[20rem]">
           <div 
             ref={carouselRef}
             className="flex transition-transform duration-500 ease-in-out h-full"
@@ -93,20 +93,23 @@ const ProductCarousel = () => {
                 className="flex-shrink-0 w-full grid grid-cols-2 gap-8 px-6 md:px-12"
               >
                 {slide.map(product => (
-                  <div key={product.id} className="h-auto md:h-[30rem]  p-4 md:p-6">
+                  <div key={product.id} className="h-auto md:h-[30rem] p-4 md:p-6">
                     <div className="h-[15rem] md:h-[20rem] mb-4 flex items-center justify-center overflow-hidden">
                       <img 
                         src={product.image} 
                         alt={product.title} 
-                        className="w-full h-full  object-cover"
+                        className="object-cover"
+                        loading='lazy'
                       />
                     </div>
-                    <h3 className="text-xl md:text-[35px] font-bold text-[#c01b2e]">{product.title}</h3>
+                    <div className='md:w-auto w-[12rem]'>
+                    <h3 className="text md:text-[35px] font-bold text-[#c01b2e]">{product.title}</h3>
                     <p className="text-sm text-[#c01b2e] font-medium mt-2">{product.details}</p>
                     <p className="text-lg text-[#c01b2e] font-bold mt-4">{product.price}</p>
                     <button className="mt-4 bg-[#c01b2e] text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">
                       Add to Cart
                     </button>
+                    </div>
                   </div>
                 ))}
               </div>
